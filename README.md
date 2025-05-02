@@ -15,12 +15,12 @@ Financial Intelligence Chatbot
 │   │   .env
 │   │   api_handler.py         # Handles routing user requests to appropriate backend logic.
 │   │   file_processor.py      # Manages file uploads and initial data processing.
-│   │   history_manager.py     # (To be implemented) Manages chat and document history.
+│   │   history_manager.py     # Manages chat and document history.
 │   │   language_handler.py    # Handles language detection and translation.
-│   │   large_data_processor.py# (Potentially for future) Handles very large datasets.
+│   │   large_data_processor.py# Handles very large datasets.
 │   │   logger.py              # Configures logging for the application.
-│   │   rag_handler.py         # (Potentially for future) Handles Retrieval-Augmented Generation for more complex queries.
-│   │   router.py              # (Potentially for future) More advanced routing based on user intent.
+│   │   rag_handler.py         # Handles Retrieval-Augmented Generation for more complex queries.
+│   │   router.py              # More advanced routing based on user intent.
 │   │   summarizer.py          # Contains logic for summarizing text content.
 │   │   table_analyzer.py      # Contains logic for analyzing tabular data (e.g., calculations).
 │   │   table_query.py         # Contains logic for querying specific information from tables.
@@ -30,10 +30,10 @@ Financial Intelligence Chatbot
 ├───logs                     # Directory to store application logs.
 ├───temp_files               # Directory for temporary file storage during processing.
 ├───utils
-│   │   config_loader.py     # (Potentially for future) Loads configuration settings.
+│   │   config_loader.py     # Loads configuration settings.
 │   │   helpers.py           # Contains utility functions.
 │
-└───vector_store             # (Potentially for future) Directory for storing vector embeddings for RAG.
+└───vector_store             # Directory for storing vector embeddings for RAG.
 ```
 
 ## Simple Explanation
